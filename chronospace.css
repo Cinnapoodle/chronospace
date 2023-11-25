@@ -4,9 +4,16 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
-.center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.screen-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-horizontal {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
 }
