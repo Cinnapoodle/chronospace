@@ -3,3 +3,10 @@ body {
   color: #F0F0F0;
   font-family: Tahoma, sans-serif;
 }
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
