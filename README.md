@@ -1,6 +1,4 @@
 # chronospace-dreamscape
-A largely text-based story about a corrupt Internet through the eyes of a group of Web exploiters.
-
 https://cinnapoodle.github.io/chronospace-dreamscape/
 
 In the year 1999, a corrupt megacorporation called Chronospace monopolizes the personal computer market, spying on every PC user in complete secrecy...except for a few devout Internet hackers.
