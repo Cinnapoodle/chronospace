@@ -36,6 +36,7 @@ body {
   border-left: 1px solid var(--dscape-white);
   box-shadow: inset -1px -1px var(--dscape-grey), 1px 1px var(--dscape-black), 1px 0 var(--dscape-black), 0 1px var(--dscape-black), 1px 1px var(--dscape-black);
   text-decoration: none;
+  cursor: context-menu;
 }
 
 .win95-button:focus {
