@@ -17,12 +17,15 @@ $('.count').each(function () {
 
 function fetchcount() {
     console.log("fetching count");
-$.get("https://cs-sitecounter.marble.zone/count", function( data ) {
+$.get("https://cs-sitecounter.marble.zone/countview", function( data ) {
     updcount(data.count);
   });
 }
 
 $(document).ready(function() {
+    $.get("https://cs-sitecounter.marble.zone/count", function( dta ) {
+    console.log("current count including YOU: " + dta.count);
+  });
     fetchcount();
     setInterval(fetchcount, 30000);
 });
