@@ -12,7 +12,7 @@ body {
 }
 
 .console {
-  color: white;
+  color: var(--dscape-white);
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -46,6 +46,7 @@ body {
   box-shadow: inset -1px -1px var(--dscape-grey), 1px 1px var(--dscape-black), 1px 0 var(--dscape-black), 0 1px var(--dscape-black), 1px 1px var(--dscape-black);
   text-decoration: none;
   cursor: context-menu;
+  margin-top: 0.5rem;
 }
 
 .win95-button:focus {
@@ -63,6 +64,10 @@ body {
 
 .win95-button img {
   vertical-align: top;
+}
+
+.button {
+  margin-top: 2rem;
 }
 
 .logo {
