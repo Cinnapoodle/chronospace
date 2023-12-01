@@ -11,6 +11,10 @@ body {
   font-family: Tahoma, sans-serif;
 }
 
+p {
+  word-wrap: break-word;
+}
+
 .console {
   color: var(--dscape-white);
   font-family: "Lucida Console", "Courier New", monospace;
@@ -18,9 +22,6 @@ body {
 
 .screen-center {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 
@@ -71,17 +72,13 @@ body {
 }
 
 .logo {
-  font-size: 100px;
-  background-image: linear-gradient(90deg, #38C4BA 0%, #839ACB 51%, #FB5CE0 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
+  width: 80%;
 }
 
+/*
 @media (max-width: 760px) {
   .screen-center {
     width: 90%;
   }
 }
+*/
