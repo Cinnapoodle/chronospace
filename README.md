@@ -1,5 +1,5 @@
 # chronospace-dreamscape
-https://cinnapoodle.github.io/chronospace-dreamscape/
+Dreamscape!:
 
 In the year 1999, a corrupt megacorporation called Chronospace monopolizes the personal computer market, spying on every PC user in complete secrecy...except for a few devout Internet hackers.
 
