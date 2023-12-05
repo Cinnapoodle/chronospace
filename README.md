@@ -24,7 +24,7 @@ As a result, the Internet was condemned and largely abandoned due to fearmongeri
 You are Jöel Kinnunen, better known online as bloodmoon@chronosoft.day, and you’re on a quest to figure out what the deal is with the Internet. Why is it so broken? Why is it so weird? Why is it so… corrupt?
 
 
-Utilizing your extreme knack for technology and your advanced knowledge of Internet hacking, you will break into Chronosoft and unveil mysteries, information and atrocities that topple that of the original crimes committed 6 years past.
+Utilizing your extreme knack for technology and your advanced knowledge of Internet hacking, you will break into Chronosoft and unveil mysteries, information and atrocities that reveal a sinister truth behind this seemingly fresh company.
 
 
 
