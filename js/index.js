@@ -70,6 +70,7 @@ const introsequence = async () => {
   typesim("WINDOWSILL.COM", document.querySelector("#consoletext2"), false);
   await sleep(1500);
   $(".console").hide();
+  document.querySelector("#skipclick").remove();
   await sleep(800);
   $(".screen-center").fadeIn(2500);
 }
