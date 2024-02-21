@@ -77,3 +77,9 @@ const introsequence = async () => {
 $(document).ready(function() {
     introsequence();
 });
+
+document.querySelector("#skipclick").onclick = function(){
+  document.querySelector("#skipclick").remove();
+  $(".console").hide();
+  $(".screen-center").fadeIn(2500);
+}
