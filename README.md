@@ -36,4 +36,4 @@ Always remember, Chronosoft welcomes you with open arms!
 
 
 
-Chronospace Dreamscape! and Mojave! are written by Tim "Paddy" Lennon (Cinnapoodle) and maintained by SKCro and brew.
+Chronospace Dreamscape! and Mojave! are written by Cinnapoodle and maintained by SKCro and brew.
