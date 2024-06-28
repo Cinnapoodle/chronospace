@@ -126,7 +126,7 @@ h3{margin:0 auto 4px auto;}
 blockquote{font-style:italic;margin-bottom:4px;}
 blockquote::before{content:'“ ';}
 blockquote::after{content:' ”';}
-.quoter{font-style:normal;margin-top:4px;margin-left:128px;}
+.quoter{display:block;margin-top:4px;margin-left:128px;}
 
 /*
 @media (max-width:760px){
