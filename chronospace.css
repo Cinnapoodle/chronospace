@@ -107,7 +107,7 @@ h3{margin:0 auto 4px auto;}
 }.win95-button:visited{color:var(--dscape-grey);}
 .win95-button:focus,.win95-button:focus-visible{
 	outline:1px dotted var(--dscape-black);
-	outline-offset:-2px;
+	outline-offset:-3px;
 }
 .win95-button:active{
 	border-top:1px solid var(--dscape-grey);
@@ -129,10 +129,4 @@ blockquote::before{content:'“ ';}
 blockquote::after{content:' ”';}
 .quoter{display:block;margin-top:4px;margin-left:128px;}
 
-/*
-@media (max-width:760px){
-	.screen-center{
-		width:90%;
-	}
-}
-*/
+@media (max-width:760px){.win95-button{width:calc(100vw - 32px);font-size:3.5vw;}}

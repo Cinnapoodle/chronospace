@@ -21,14 +21,13 @@ function fetchCount(){
 	console.debug('Fetching site view count...');
 	fetch('https://cs-sitecounter.marble.zone/countview')
 		.then(response=>response.json())
-		.then(data=>{updCount(data.count);})
+		.then(data=>{updCount(data.count);console.debug('Current count, including you: '+data.count);})
 		.catch(error=>console.error('Error fetching view count:',error));
 }
 
 document.addEventListener('DOMContentLoaded',function(){
 	fetch('https://cs-sitecounter.marble.zone/count')
 		.then(response=>response.json())
-		.then(dta=>{console.log("current count including YOU: "+dta.count);})
 		.catch(error=>{
 			console.error('Error fetching initial view count:',error);
 			document.querySelectorAll('.count').forEach(e=>{e.textContent='Unknown';});
