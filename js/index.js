@@ -1,6 +1,6 @@
 const sleep=(delay) => new Promise((resolve) => setTimeout(resolve, delay));
 const terminal=document.getElementById('terminal');
-const typespeed=80;
+const typespeed=50;
 let cutsceneSkipped=false;
 
 function typesim(newsng,target){
@@ -14,19 +14,17 @@ function typesim(newsng,target){
 					target.innerHTML += newsng.charAt(i);
 					i++;
 					setTimeout(typeWriter, typespeed);
-				} else {
+				}else{
 					i=0;
 					resolve();
 				}
-			}
-			typeWriter();
+			}typeWriter();
 		});
 	};
-	let run=async function(){
+	async function run(){
 		await delay(150);
 		const waitfortyp=await typ();
-	}
-	run();
+	}run();
 }
 
 const introSequence=async function(){

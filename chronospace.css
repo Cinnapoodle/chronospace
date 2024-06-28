@@ -10,8 +10,15 @@ body{
 	background-color:var(--dscape-black);
 	color:var(--dscape-white);
 }
-
 p{word-wrap:break-word;}
+
+@font-face{
+	font-family:DOS;
+	src:url(DOS.woff) format(woff);
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+}
 
 #terminal{
 	position:fixed;
@@ -26,15 +33,11 @@ p{word-wrap:break-word;}
 	font-family:DOS,Lucida Console,Courier New,monospace;
 	color:var(--dscape-white);
 }
-
-@font-face{
-	font-family:DOS;
-	src:url(DOS.woff) format(woff);
-	font-weight:normal;
-	font-style:normal;
-	font-display:swap;
+#cursorFlash{animation:blink 0.5s steps(1,start) infinite;}
+@keyframes blink{
+	0%,100%{opacity:0;}
+	50%{opacity:1;}
 }
-
 .skiptxt{
 	position:fixed;
 	bottom:0;
@@ -50,7 +53,17 @@ p{word-wrap:break-word;}
 	text-align:center;
 }
 
-.episode-list{
+.logo{
+	width:80%;
+	background-image:linear-gradient(90deg, #38C4BA 0%, #839ACB 51%, #FB5CE0 100%);
+	background-size:100%;
+	-webkit-background-clip:text;
+	-moz-background-clip:text;
+	-webkit-text-fill-color:transparent; 
+	-moz-text-fill-color:transparent;
+}
+
+#episodes{
 	display:flex;
 	width:fit-content;
 	flex-direction:column;
@@ -97,15 +110,10 @@ h3{margin:0 auto 4px auto;}
 .chapter-one,.full-cut{margin:0 auto;}
 .full-cut{font-weight:bold;}
 
-.logo{
-	width:80%;
-	background-image:linear-gradient(90deg, #38C4BA 0%, #839ACB 51%, #FB5CE0 100%);
-	background-size:100%;
-	-webkit-background-clip:text;
-	-moz-background-clip:text;
-	-webkit-text-fill-color:transparent; 
-	-moz-text-fill-color:transparent;
-}
+blockquote{font-style:italic;margin-bottom:4px;}
+blockquote::before{content:'“ ';}
+blockquote::after{content:' ”';}
+.quoter{font-style:normal;margin-top:4px;margin-left:128px;}
 
 /*
 @media (max-width:760px){
