@@ -10,11 +10,11 @@ Chronospace is upon us. Welcome them.
 
 Story created by Cinnapoodle, site maintained by SKCro and brew.">
 </head><body>
-<section id=console onclick=skipCutscene()>
+<section id=terminal onclick=skipCutscene()>
 	<img src=images/cursorflash.gif id=cursorFlash>
 	<i class=skiptxt>click anywhere to skip cutscene</i>
 </section>
-<main class=screen-center id=mainmenu-js>
+<main class=screen-center id=mainMenu>
 	<img src=images/chronospace.png class=logo alt="Chronospace logo">
 	<h1>Welcome to the back-end.</h1>
 	<p>Oh, hey! It's good you're here. By now, I'm sure you've noticed that the guys and gals on here are a bit...corrupt. Which is why me and a small group of folk have chosen to rise up against the system in a fight for a free Internet! <br> Don't have what it takes? No biggie. You can still contribute to the cause by witnessing it happen! <br> Everytime I, wadebraid, dial into the Dreamscape, I record my experiences on-line and release them to the world in hopes <em>someone</em> out there will realize just how corrupt Chronospace are. <br><strong>Will you be that person?</strong></p>
@@ -22,16 +22,25 @@ Story created by Cinnapoodle, site maintained by SKCro and brew.">
 	<p><strong>READ CHRONOSPACE DREAMSCAPE! BELOW!</strong></p>
 	<span>I think it's quite cool <i>-- TommyD</i></span>
 	<p><strong style=font-size:0.9rem>Please note that the images and other assets included in the story may be broken thanks to Discord's CDN change. This should be fixed soon.</strong></p>
-	<p class=button><a class=win95-button href=https://files.catbox.moe/kyk7ik.txt target=_blank><img src=images/win.svg width=16 height=16> CHRONOSPACE DREAMSCAPE! THE FINAL CUT</a></p>
-	<br>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1JLaO65xQbUyJ7SI57CEYnfjesXA0bGL--K667xvg8Kg/edit target=_blank><img src=images/win.svg> EPISODE ONE: THE INTERNET IS THE FUTURE!!!!</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1Bc1Mn2o86aryr1aIzW46vOf7A6cWyndWtXX_FgsNVa8/edit?usp=sharing target=_blank><img src=images/network.svg> EPISODE TWO: EXPLORER.EXE IS NOT RESPONDING</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/15WvBKeulS1BpG5w6Odtr99dDjHrCspJlF_gPGa1Jk6M/edit?usp=sharing target=_blank><img src=images/death.svg> EPISODE THREE: IT'S NOT SAFE TO TURN OFF YOUR COMPUTER</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1OSg6H41mpCPMWuytyGH6cPxFAXGD4VAMidOi8WF_5oI/edit?usp=sharing target=_blank><img src=images/PhonePole.svg width=16 height=16> EPISODE FOUR: NO ROM; BASIC SYSTEM HALTED</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1MXSW4zJmZkGKo8V3ZwxJtD8o3rwGkOXVHqPBat9IVbo/edit?usp=sharing target=_blank><img src=images/err.svg width=16 height=16> EPISODE FIVE: DRIVER_IRQL_LESS_OR_NOT_EQUAL</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1GRK8fSnzQqB8YqYRNcYnxF65IsgbzbECVVkIBOhGfV0/edit?usp=sharing target=_blank><img src=images/webtv.svg width=16 height=16> EPISODE SIX: STACK BUFFER OVERFLOW</a></p>
-	<p class=button><a class=win95-button href=https://docs.google.com/document/d/1CiBiD5Nk-1ZYcLZd2PqXGH3HZOnDuW-rjWbkrgBRXWs/edit?usp=sharing target=_blank><img src=images/shutdown.svg width=16 height=16> EPISODE SEVEN: CONTROL + ALT + DELETE</a></p>
-	<br><span class=count>0</span><span> site views</span>
+	<hr>
+	<ul class=episode-list aria-label="Episode list">
+		<li>
+			<h3>THE FINAL CUT</h3>
+			<a class="win95-button full-cut" href=https://files.catbox.moe/kyk7ik.txt target=dreamscape><img src=images/win.svg width=16 height=16> CHRONOSPACE DREAMSCAPE! THE FINAL CUT</a>
+			<p class=fullcut-description>The entire story, contained entirely within one text file. How convenient!</p>
+			<hr>
+		</li>
+		<li><h3 class=episodes>EPISODES</h3><p class=episodes-description>Every individual episode, each contained as its own Google Doc.</p></li>
+		<li><a class="win95-button chapter-one" href=https://docs.google.com/document/d/1JLaO65xQbUyJ7SI57CEYnfjesXA0bGL--K667xvg8Kg/edit target=dreamscape><img src=images/win.svg> EPISODE ONE: THE INTERNET IS THE FUTURE!!!!</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/1Bc1Mn2o86aryr1aIzW46vOf7A6cWyndWtXX_FgsNVa8/edit?usp=sharing target=dreamscape><img src=images/network.svg> EPISODE TWO: EXPLORER.EXE IS NOT RESPONDING</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/15WvBKeulS1BpG5w6Odtr99dDjHrCspJlF_gPGa1Jk6M/edit?usp=sharing target=dreamscape><img src=images/death.svg> EPISODE THREE: IT'S NOT SAFE TO TURN OFF YOUR COMPUTER</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/1OSg6H41mpCPMWuytyGH6cPxFAXGD4VAMidOi8WF_5oI/edit?usp=sharing target=dreamscape><img src=images/PhonePole.svg> EPISODE FOUR: NO ROM; BASIC SYSTEM HALTED</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/1MXSW4zJmZkGKo8V3ZwxJtD8o3rwGkOXVHqPBat9IVbo/edit?usp=sharing target=dreamscape><img src=images/err.svg> EPISODE FIVE: DRIVER_IRQL_LESS_OR_NOT_EQUAL</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/1GRK8fSnzQqB8YqYRNcYnxF65IsgbzbECVVkIBOhGfV0/edit?usp=sharing target=dreamscape><img src=images/webtv.svg> EPISODE SIX: STACK BUFFER OVERFLOW</a></li>
+		<li><a class=win95-button href=https://docs.google.com/document/d/1CiBiD5Nk-1ZYcLZd2PqXGH3HZOnDuW-rjWbkrgBRXWs/edit?usp=sharing target=dreamscape><img src=images/shutdown.svg> EPISODE SEVEN: CONTROL + ALT + DELETE</a></li>
+	</ul>
+	<hr>
+	<span class=count>0</span><span> site views</span>
 </main>
 <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
 <script src=js/index.js></script>

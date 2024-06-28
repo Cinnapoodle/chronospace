@@ -5,14 +5,15 @@ html{
 	--dscape-white:#f0f0f0;
 }
 body{
+	font-family:Tahoma,sans-serif;
+	font-size:14px;
 	background-color:var(--dscape-black);
 	color:var(--dscape-white);
-	font-family:Tahoma,sans-serif;
 }
 
 p{word-wrap:break-word;}
 
-#console{
+#terminal{
 	position:fixed;
 	top:0;
 	left:0;
@@ -44,35 +45,39 @@ p{word-wrap:break-word;}
 	text-shadow:1px 1px 2px #000;
 }
 
-.screen-center{
-	position:absolute;
-	text-align:center;
-}
-
-#mainmenu-js{
+#mainMenu{
 	display:none;
-}
-
-.center-horizontal{
-	position:relative;
-	left:50%;
-	transform:translateX(-50%);
 	text-align:center;
 }
+
+.episode-list{
+	display:flex;
+	width:fit-content;
+	flex-direction:column;
+	justify-content:center;
+	list-style:none;
+	margin:8px auto;
+	padding:0;
+}
+h3{margin:0 auto 4px auto;}
+.fullcut-description,.episodes-description{margin:0 auto 8px auto;}
+.fullcut-description{margin-top:4px;}
 
 .win95-button{
-	color:var(--dscape-black);
+	display:block;
+	width:480px;
+	margin:8px auto 0 auto;
 	background:var(--dscape-silver);
+	border-top:1px solid var(--dscape-white);
+	border-left:1px solid var(--dscape-white);
 	padding:8px;
 	padding-left:6px;
 	padding-top:6px;
-	border-top:1px solid var(--dscape-white);
-	border-left:1px solid var(--dscape-white);
 	box-shadow:inset -1px -1px var(--dscape-grey), 1px 1px var(--dscape-black), 1px 0 var(--dscape-black), 0 1px var(--dscape-black), 1px 1px var(--dscape-black);
+	color:var(--dscape-black);
 	text-decoration:none;
 	cursor:context-menu;
-	margin-top:0.5rem;
-}
+}.win95-button:visited{color:var(--dscape-grey);}
 .win95-button:focus,.win95-button:focus-visible{
 	outline:1px dotted var(--dscape-black);
 	outline-offset:-2px;
@@ -84,9 +89,13 @@ p{word-wrap:break-word;}
 	outline:1px dotted var(--dscape-black);
 	outline-offset:-2px;
 }
-.win95-button img{vertical-align:top;}
-
-.button{margin-top:2rem;}
+.win95-button img{
+	width:16px;
+	height:16px;
+	vertical-align:top;
+}
+.chapter-one,.full-cut{margin:0 auto;}
+.full-cut{font-weight:bold;}
 
 .logo{
 	width:80%;
