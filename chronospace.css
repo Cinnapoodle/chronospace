@@ -27,26 +27,39 @@ p{word-wrap:break-word;}
 	width:calc(100vw - 64px);
 	height:calc(100vh - 64px);
 	border:16px solid;
-	border-color:#191919 #262626 #262626 #191919;
+	border-color:#161616 #222 #262626 #191919;
 	padding:16px;
 	font-size:16px;
 	font-family:DOS,Lucida Console,Courier New,monospace;
 	color:var(--dscape-white);
 }
-#cursorFlash{animation:blink 0.5s steps(1,start) infinite;}
+.blinking-cursor{animation:blink 0.5s steps(1,start) infinite;}
 @keyframes blink{
 	0%,100%{opacity:0;}
 	50%{opacity:1;}
 }
-.skiptxt{
+.loading-text{
+	position:fixed;
+	top:50vh;
+	left:50vw;
+	transform:translate(-50%,-50%);
+	font-size:32px;
+	animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{opacity:0.8;}50%{opacity:0.5;}}
+.skip-text{
 	position:fixed;
 	bottom:0;
 	right:0;
+	font-size:14px;
 	font-family:Tahoma,sans-serif;
-	padding-right:5px;
+	padding-right:16px;
 	color:#f0f0f080;
 	text-shadow:1px 1px 2px #000;
+	opacity:0;
+	transition:opacity 0.5s linear;
 }
+.skip-text.shown{opacity:1;}
 
 #mainMenu{
 	display:none;
