@@ -43,10 +43,7 @@ p{word-wrap:break-word;}
 	color:var(--dscape-white);
 }
 .blinking-cursor{animation:blink 0.5s steps(1,start) infinite;}
-@keyframes blink{
-	0%,100%{opacity:0;}
-	50%{opacity:1;}
-}
+@keyframes blink{0%,100%{opacity:0;}50%{opacity:1;}}
 .loading-text{
 	position:fixed;
 	top:50vh;
