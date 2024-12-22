@@ -1,5 +1,4 @@
 # Chronospace Dreamscape!
-Dreamscape!:
 
 In the year 1999, a corrupt megacorporation called Chronospace monopolizes the personal computer market, spying on every PC user in complete secrecy...except for a few devout Internet hackers.
 
@@ -12,4 +11,4 @@ Will you save the Internet? Or will you, quite literally, die trying?
 Chronospace is upon us. Welcome them.
 
 
-Chronospace is written by Cinnapoodle and maintained by SKCro and brew.
+Chronospace is written by Cinnapoodle and maintained by SKCro and formerly brew.
