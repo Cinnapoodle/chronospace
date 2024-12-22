@@ -62,7 +62,7 @@ const introSequence=async function(){
 	document.querySelector('.blinking-cursor').remove();
 	const secondCmd=document.createElement("span");
 	secondCmd.id='secondCmd';
-	secondCmd.innerHTML=`<br>C:\WINDOWSILL&gt;`;
+	secondCmd.innerHTML=`<br>C:\\WINDOWSILL&gt;`;
 	terminal.appendChild(secondCmd);
 	terminal.appendChild(blinkingCursor);
 	await sleep(800);
