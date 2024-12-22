@@ -11,4 +11,4 @@ Will you save the Internet? Or will you, quite literally, die trying?
 Chronospace is upon us. Welcome them.
 
 
-Chronospace is written by Cinnapoodle and maintained by SKCro and formerly brew.
+Chronospace is written by Cinnapoodle and maintained by SKCro and, formerly, brew.
